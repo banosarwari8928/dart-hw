@@ -28,6 +28,7 @@ List <int> numbers=[1,2,3,10,11,12,13];
 // numbers.addAll([14,15,20,40]); for collection of data
 // numbers.insert(4,12);
 var newList=numbers.reversed.toList();
-newList.remove(12);
+// newList.remove(12);     remove we select the exact item 
+newList.removeAt(3);   //  removeAt we select the  number of index  of the item 
 print(newList);
 }
