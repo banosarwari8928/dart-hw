@@ -32,5 +32,5 @@ var newList=numbers.reversed.toList();
 newList.removeAt(3);   //  removeAt we select the  number of index  of the item 
 print(newList);
 List<int> numberList2=[1,2,3,4,6,5];
-numberList2.removeWhere((item)=>item%2!=0);
+numberList2.removeWhere((item)=>item%2==0);
 print(numberList2);}
