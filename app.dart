@@ -21,7 +21,9 @@ List <int> numbers=[1,2,3,10,11,12,13];
 // print(numbers.length);
 // print(numbers.isEmpty);
 // print(numbers.isNotEmpty);
-print(numbers[0]);
-print(numbers.first);
-print(numbers.last);
+// print(numbers[0]);
+// print(numbers.first);
+// print(numbers.last);
+numbers.add(80);
+print(numbers);
 }
