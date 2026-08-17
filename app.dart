@@ -24,7 +24,8 @@ List <int> numbers=[1,2,3,10,11,12,13];
 // print(numbers[0]);
 // print(numbers.first);
 // print(numbers.last);
-// numbers.add(80);        bary yak element
-numbers.addAll([14,15,20,40]);
+// numbers.add(80);        for yak element
+// numbers.addAll([14,15,20,40]); for collection of data
+numbers.insert(4,12);
 print(numbers);
 }
