@@ -16,6 +16,9 @@ void main(){
         result+=i;
     }  
 print(i);
+// hw of 17 aug
 List <int> numbers=[1,2,3,10,11,12,13];
-print(numbers.lenght);
+print(numbers.length);
+print(numbers.isEmpty);
+print(numbers.isNotEmpty);
 }
