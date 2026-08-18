@@ -32,15 +32,18 @@ var newList=numbers.reversed.toList();
 newList.removeAt(3);   //  removeAt we select the  number of index  of the item 
 print(newList);
 List<int> numberList2=[1,2,3,4,6,5];
-numberList2.removeWhere((item)=>item%2==0);
+// numberList2.removeWhere((item)=>item%2==0);
 // 18 aug
 numberList2.retainWhere((item)=>item%2==1);
 print(numberList2);
-print(numberList.indexOf(3));
-print(numberList.lastIndexOf(3));
+print(numberList2.indexOf(3));
+print(numberList2.lastIndexOf(3));
 List<num> prices=[1400,400,500,1000,330,2030];
 var result=prices.indexWhere((item)=>item>4000);
 print(result);
 num myMoney=400;
  bool result2=prices.any((price)=>price<=myMoney);
+ bool result3=prices.every((price)=>price<=myMoney);
+ print(result2);
+ print(result3);
 }
