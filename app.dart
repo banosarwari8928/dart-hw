@@ -41,4 +41,6 @@ print(numberList.lastIndexOf(3));
 List<num> prices=[1400,400,500,1000,330,2030];
 var result=prices.indexWhere((item)=>item>4000);
 print(result);
+num myMoney=400;
+ bool result2=prices.any((price)=>price<=myMoney);
 }
