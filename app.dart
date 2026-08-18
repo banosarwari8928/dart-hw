@@ -37,4 +37,8 @@ numberList2.removeWhere((item)=>item%2==0);
 numberList2.retainWhere((item)=>item%2==1);
 print(numberList2);
 print(numberList.indexOf(3));
+print(numberList.lastIndexOf(3));
+List<num> prices=[1400,400,500,1000,330,2030];
+var result=prices.indexWhere((item)=>item>4000);
+print(result);
 }
