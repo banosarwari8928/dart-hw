@@ -36,4 +36,5 @@ numberList2.removeWhere((item)=>item%2==0);
 // 18 aug
 numberList2.retainWhere((item)=>item%2==1);
 print(numberList2);
+print(numberList.indexOf(3));
 }
