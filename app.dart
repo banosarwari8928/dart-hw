@@ -6,5 +6,7 @@ List<num> finalNumber=currntPrice.where((x)=>x>800).toList();
 // print(currntPrice);
 List<dynamic> nestedList=[[1,2],[3,4,5],[10,11,12]];
 List<dynamic> finalList =nestedList.expand((x)=>x).toList();
-print(finalList);
+print( " ths the final result for nested list $finalList");
+List<String> students =["Ali","Murteza","Mujtaba","Karim","Nasim"];
+List<String> someStudents = students.take(4).toList();
 }
