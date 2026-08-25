@@ -7,5 +7,8 @@ void main(){
     "Akbar":92,
     "Salim":98
    };
-   print(scores["Murtaza"]);
+//    print(Students["Murtaza"]);
+print(Students.length);
+print(Students.keys);
+print(Students.values);
    }
