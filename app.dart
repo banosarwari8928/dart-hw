@@ -18,4 +18,8 @@ Students.putIfAbsent("Mamood",()=>40);
 print(Students);
 Students.update("Ali",(v)=>v-10);
 print(Students);
+
+
+Students.removeWhere((k,v)=>k.contains("m"));
+print(Students);
    }
