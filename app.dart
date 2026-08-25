@@ -13,4 +13,9 @@ print(Students.keys);
 print(Students.values);
 Students["Hamid"]=60;
 print(Students);
+// Students.addAll=({"Dawood":78,"Karim":20});
+Students.putIfAbsent("Mamood",()=>40);
+print(Students);
+Students.update("Ali",(v)=>v-10);
+print(Students);
    }
