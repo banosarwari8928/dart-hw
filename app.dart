@@ -11,4 +11,6 @@ void main(){
 print(Students.length);
 print(Students.keys);
 print(Students.values);
+Students["Hamid"]=60;
+print(Students);
    }
