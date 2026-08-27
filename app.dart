@@ -1,27 +1,27 @@
   class Animal{
    String name;
-   String _model;
+   String _type;
    String color;
-   set model(v){
-      if(v="pet"||"wild"){
-         this._model = v;
+   set type(v){
+      if(v=="pet"||v=="wild"){
+         this._type = v;
       };
    }
-   String get model{
-      Return this._model;
-   };
-   void bark(){
-      print("$this can bark");
+   String get type{
+      return this._type;
    }
-   Animal (this.name,this.model,this.color);
+   void bark(){
+      print("$this.name can bark");
+   }
+   Animal (this.name,this._type,this.color);
   }
 void main(){
-   var dog=new Animal("Dog","Wild","Brown");
+   var dog= Animal("Dog","Wild","Brown");
    dog.bark();
    List<Animal> animals=[
       Animal("cat","pet","black"),
       Animal("rabbit","wild","white"),
    ];
-   dog.model="animal";
-   print(dog._model);
+   dog.type="animal";
+   print(dog.type);
    }
