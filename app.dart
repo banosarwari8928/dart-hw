@@ -4,13 +4,14 @@
    String color;
    set type(v){
       if(v="pet"||"wild"){
-         this._type=v,
+         this._type = v,
       };
    }
    String get type{
       Return this._type;
    };
    void bark(){
+      print("$this can bark");
    }
    Animal (this.name,this.type,this.color);
   }
