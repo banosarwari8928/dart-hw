@@ -17,3 +17,7 @@ class Computer extends Machine{
         print('We can type in computer it names the work of computer.');
      }
 }
+void main(){
+     Computer comp = Computer('Sony', 'Sony', 'Yellow');
+     print(comp);
+}
