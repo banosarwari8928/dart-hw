@@ -18,6 +18,3 @@ class Computer extends Machine{
      }
 }
 void main(){
-     Computer comp = Computer('Sony', 'Sony', 'Yellow');
-     print(comp);
-}
