@@ -12,12 +12,3 @@
    }
    Animal (this.name,this._type,this.color);
   }
-void main(){
-   var dog= Animal("Dog","Wild","Brown");
-   List<Animal> animals=[
-      Animal("cat","pet","black"),
-      Animal("rabbit","wild","white"),
-   ];
-   dog.type="animal";
-   print(dog);
-   }
