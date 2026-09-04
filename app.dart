@@ -7,8 +7,5 @@
          this._type = v;
       };
    }
-   String get type{
-      return this._type;
-   }
-   Animal (this.name,this._type,this.color);
+  
   }
