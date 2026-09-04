@@ -12,3 +12,9 @@ class Car {
     print("${this.model} can be turn on with a remote");
   }
 }
+
+class Fielder extends Car {
+  String color;
+  Fielder(this.color, String model, String brand) : super(model, brand);
+ 
+}
